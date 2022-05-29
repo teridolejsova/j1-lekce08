@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class SvatekTest {
 
+
   @Test
   void testToString() {
    Svatek svatek = new Svatek(MonthDay.of(2, 1), "Hynek", Gender.MUZ);
